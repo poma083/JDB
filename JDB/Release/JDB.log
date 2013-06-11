@@ -1,0 +1,101 @@
+﻿Build started 06.03.2013 2:50:00.
+     1>Project "C:\Documents and Settings\user\Мои документы\Visual Studio 2010\Projects\JDB\JDB\JDB.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\KernelJDB.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Release\KernelJDB.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CBaseHeader.cpp CField.cpp CPage.cpp CTable.cpp CSysField.cpp CDBObject.cpp DB.cpp KernelJDB.cpp
+         CBaseHeader.cpp
+         CField.cpp
+         CPage.cpp
+     1>CPage.cpp(54): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CPage.cpp(59): warning C4244: 'argument' : conversion from '__int64' to 'unsigned short', possible loss of data
+     1>CPage.cpp(104): warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+     1>CPage.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>CPage.cpp(296): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CPage.cpp(465): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CPage.cpp(473): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CPage.cpp(488): warning C4018: '<' : signed/unsigned mismatch
+     1>CPage.cpp(499): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CPage.cpp(513): warning C4018: '<' : signed/unsigned mismatch
+     1>CPage.cpp(539): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CPage.cpp(554): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CPage.cpp(566): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CPage.cpp(592): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CPage.cpp(623): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CPage.cpp(643): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         CTable.cpp
+     1>CTable.cpp(56): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>CTable.cpp(117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>CTable.cpp(184): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(186): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(207): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(209): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(240): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(253): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(255): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(257): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(259): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(261): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(263): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(265): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(272): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(277): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(286): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(288): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CTable.cpp(304): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+         CSysField.cpp
+     1>CSysField.cpp(46): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(48): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(75): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(90): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(92): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(94): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(96): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(102): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(104): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CSysField.cpp(142): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+         CDBObject.cpp
+     1>CDBObject.cpp(88): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CDBObject.cpp(95): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CDBObject.cpp(122): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CDBObject.cpp(125): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CDBObject.cpp(130): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>CDBObject.cpp(142): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CDBObject.cpp(153): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CDBObject.cpp(163): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CDBObject.cpp(167): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>CDBObject.cpp(170): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+         DB.cpp
+     1>DB.cpp(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>DB.cpp(116): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>DB.cpp(387): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+         KernelJDB.cpp
+     1>KernelJDB.cpp(254): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\user\Мои документы\Visual Studio 2010\Projects\JDB\Release\KernelJDB.lib" /NOLOGO /LTCG Release\CBaseHeader.obj
+         Release\CField.obj
+         Release\CPage.obj
+         Release\CTable.obj
+         Release\CSysField.obj
+         Release\CDBObject.obj
+         Release\DB.obj
+         Release\KernelJDB.obj
+         JDB.vcxproj -> C:\Documents and Settings\user\Мои документы\Visual Studio 2010\Projects\JDB\Release\KernelJDB.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\KernelJDB.unsuccessfulbuild".
+         Touching "Release\KernelJDB.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\user\Мои документы\Visual Studio 2010\Projects\JDB\JDB\JDB.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.32

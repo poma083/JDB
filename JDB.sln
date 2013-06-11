@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KernelJDB", "JDB\JDB.vcxproj", "{D84F985E-33E8-4E4B-8592-0DE90098F6D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testdll", "testdll\testdll.vcxproj", "{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Debug|Win32.Build.0 = Debug|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Debug|x86.ActiveCfg = Debug|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Release|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Release|Mixed Platforms.Build.0 = Debug|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Release|Win32.ActiveCfg = Release|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Release|Win32.Build.0 = Release|Win32
+		{D84F985E-33E8-4E4B-8592-0DE90098F6D7}.Release|x86.ActiveCfg = Release|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Debug|Win32.Build.0 = Debug|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Debug|x86.ActiveCfg = Debug|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Release|Mixed Platforms.ActiveCfg = Debug|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Release|Mixed Platforms.Build.0 = Debug|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Release|Win32.ActiveCfg = Release|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Release|Win32.Build.0 = Release|Win32
+		{18E41CE0-F9C1-4DF8-83BF-A32EA5027614}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

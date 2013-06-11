@@ -1,0 +1,113 @@
+﻿Build started 17.05.2013 19:45:27.
+     1>Project "C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\JDB\JDB\JDB.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\KernelJDB.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\KernelJDB.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CBaseHeader.cpp CField.cpp CPage.cpp CTable.cpp CSysField.cpp CDBObject.cpp DB.cpp KernelJDB.cpp
+         KernelJDB.cpp
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\kerneljdb.cpp(197): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\kerneljdb.cpp(198): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\kerneljdb.cpp(336): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         DB.cpp
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\db.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\db.cpp(129): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\db.cpp(159): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\db.cpp(381): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\db.cpp(404): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         CDBObject.cpp
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(89): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(102): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(123): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(162): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(180): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(197): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(209): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(220): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(227): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(237): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(241): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cdbobject.cpp(244): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+         CSysField.cpp
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(55): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(57): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(87): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(103): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(105): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(107): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(109): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(111): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(117): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(119): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(122): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\csysfield.cpp(161): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         CTable.cpp
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(314): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(316): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(337): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(339): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(370): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(383): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(385): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(387): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(389): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(391): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(393): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(395): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(402): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(407): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(416): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(418): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\ctable.cpp(448): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+         CPage.cpp
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(54): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(59): warning C4244: 'argument' : conversion from '__int64' to 'unsigned short', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(104): warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(296): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(474): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(482): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(497): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(514): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(621): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(648): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(663): warning C4244: '=' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(675): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(701): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(732): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\cpage.cpp(752): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         CField.cpp
+         CBaseHeader.cpp
+         Generating Code...
+     1>c:\documents and settings\администратор\мои документы\visual studio 2010\projects\jdb\jdb\db.cpp(392): warning C4715: 'JDB::CDB::GetFieldsInfo' : not all control paths return a value
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\JDB\Debug\KernelJDB.lib" /NOLOGO Debug\CBaseHeader.obj
+         Debug\CField.obj
+         Debug\CPage.obj
+         Debug\CTable.obj
+         Debug\CSysField.obj
+         Debug\CDBObject.obj
+         Debug\DB.obj
+         Debug\KernelJDB.obj
+         JDB.vcxproj -> C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\JDB\Debug\KernelJDB.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\KernelJDB.unsuccessfulbuild".
+         Touching "Debug\KernelJDB.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Администратор\Мои документы\Visual Studio 2010\Projects\JDB\JDB\JDB.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:06.31
